@@ -9,11 +9,12 @@ class Database {
     init() {
         // .env - dotenv
         this.db = new Sequelize({
-            database: 'exemplo',
-            host: 'localhost',
-            username: 'root',
-            password: '',
-            dialect: 'mysql'
+            database: 'exemplo-sexta-feira',
+            host: 'postgresql://ronaldo:A3wSnYlGMJa518kP8wKhvGRLCY229UTC@dpg-d4l2l87pm1nc738ivigg-a.virginia-postgres.render.com/exemplo_sexta_feira',
+            port: 5432,
+            username: 'ronaldo',
+            password: 'A3wSnYlGMJa518kP8wKhvGRLCY229UTC',
+            dialect: 'postgres'
         })
     }
 }
