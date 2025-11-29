@@ -9,7 +9,7 @@ class Database {
     init() {
         // .env - dotenv
         this.db = new Sequelize({
-            database: 'exemplo-sexta-feira',
+            database: 'exemplo_sexta_feira',
             host: 'dpg-d4l2l87pm1nc738ivigg-a',
             port: 5432,
             username: 'ronaldo',
